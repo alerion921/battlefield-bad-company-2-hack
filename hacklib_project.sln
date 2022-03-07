@@ -1,0 +1,51 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "hacklib", "hacklib", "{BECC29C1-A40A-3047-9990-E7BE009B5D44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "hacklib_bf", "hacklib_bf", "{C22C0FB2-EAEC-3ADC-9C52-3E478948A276}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hacklib", "src\hacklib\hacklib.vcxproj", "{C955374E-B9E8-3C23-80EB-BFAE2B628C11}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hacklib_bf", "src\hacklib_bf\hacklib_bf.vcxproj", "{961BBFA0-E99A-3A08-9178-118BFE51B328}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C955374E-B9E8-3C23-80EB-BFAE2B628C11} = {C955374E-B9E8-3C23-80EB-BFAE2B628C11}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		MinSizeRel|Win32 = MinSizeRel|Win32
+		Release|Win32 = Release|Win32
+		RelWithDebInfo|Win32 = RelWithDebInfo|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C955374E-B9E8-3C23-80EB-BFAE2B628C11}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C955374E-B9E8-3C23-80EB-BFAE2B628C11}.Debug|Win32.Build.0 = Debug|Win32
+		{C955374E-B9E8-3C23-80EB-BFAE2B628C11}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
+		{C955374E-B9E8-3C23-80EB-BFAE2B628C11}.MinSizeRel|Win32.Build.0 = MinSizeRel|Win32
+		{C955374E-B9E8-3C23-80EB-BFAE2B628C11}.Release|Win32.ActiveCfg = Release|Win32
+		{C955374E-B9E8-3C23-80EB-BFAE2B628C11}.Release|Win32.Build.0 = Release|Win32
+		{C955374E-B9E8-3C23-80EB-BFAE2B628C11}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{C955374E-B9E8-3C23-80EB-BFAE2B628C11}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
+		{961BBFA0-E99A-3A08-9178-118BFE51B328}.Debug|Win32.ActiveCfg = Debug|Win32
+		{961BBFA0-E99A-3A08-9178-118BFE51B328}.Debug|Win32.Build.0 = Debug|Win32
+		{961BBFA0-E99A-3A08-9178-118BFE51B328}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
+		{961BBFA0-E99A-3A08-9178-118BFE51B328}.MinSizeRel|Win32.Build.0 = MinSizeRel|Win32
+		{961BBFA0-E99A-3A08-9178-118BFE51B328}.Release|Win32.ActiveCfg = Release|Win32
+		{961BBFA0-E99A-3A08-9178-118BFE51B328}.Release|Win32.Build.0 = Release|Win32
+		{961BBFA0-E99A-3A08-9178-118BFE51B328}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{961BBFA0-E99A-3A08-9178-118BFE51B328}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C955374E-B9E8-3C23-80EB-BFAE2B628C11} = {BECC29C1-A40A-3047-9990-E7BE009B5D44}
+		{961BBFA0-E99A-3A08-9178-118BFE51B328} = {C22C0FB2-EAEC-3ADC-9C52-3E478948A276}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB0B7B26-E612-4A7C-8127-97079FF7C8D7}
+	EndGlobalSection
+EndGlobal
