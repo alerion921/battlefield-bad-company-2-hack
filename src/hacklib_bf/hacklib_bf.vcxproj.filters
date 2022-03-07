@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Aimbot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BattlefieldDataMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Error.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EspDrawer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BattlefieldData.cpp">
+      <Filter>Game abstraction\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CamData.cpp">
+      <Filter>Game abstraction\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OwnData.cpp">
+      <Filter>Game abstraction\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game abstraction\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Skeleton.cpp">
+      <Filter>Game abstraction\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Game abstraction\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\BFBC2_Cam.h">
+      <Filter>Game specific\bfbc2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\BFBC2_Input.h">
+      <Filter>Game specific\bfbc2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\BFBC2_Library.h">
+      <Filter>Game specific\bfbc2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\BFBC2_Main.h">
+      <Filter>Game specific\bfbc2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\BFBC2_Mystate.h">
+      <Filter>Game specific\bfbc2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\BFBC2_Skeleton.h">
+      <Filter>Game specific\bfbc2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\BFBC2_Weapon.h">
+      <Filter>Game specific\bfbc2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\BF3_Cam.h">
+      <Filter>Game specific\bf3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\BF3_Input.h">
+      <Filter>Game specific\bf3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\BF3_Library.h">
+      <Filter>Game specific\bf3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\BF3_Main.h">
+      <Filter>Game specific\bf3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\BF3_Skeleton.h">
+      <Filter>Game specific\bf3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\BF3_Weapon.h">
+      <Filter>Game specific\bf3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\BF4_Cam.h">
+      <Filter>Game specific\bf4</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\BF4_Input.h">
+      <Filter>Game specific\bf4</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\BF4_Library.h">
+      <Filter>Game specific\bf4</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\BF4_Main.h">
+      <Filter>Game specific\bf4</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\BF4_Weapon.h">
+      <Filter>Game specific\bf4</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\SWBF_Cam.h">
+      <Filter>Game specific\swbf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\SWBF_Input.h">
+      <Filter>Game specific\swbf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\SWBF_Library.h">
+      <Filter>Game specific\swbf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\SWBF_Main.h">
+      <Filter>Game specific\swbf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\BattlefieldData.h">
+      <Filter>Game abstraction\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\CamData.h">
+      <Filter>Game abstraction\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\OwnData.h">
+      <Filter>Game abstraction\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\Player.h">
+      <Filter>Game abstraction\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\Skeleton.h">
+      <Filter>Game abstraction\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\Weapon.h">
+      <Filter>Game abstraction\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\Input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\Aimbot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\BattlefieldDataMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\EspDrawer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\Hack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Game abstraction\Header Files">
+      <UniqueIdentifier>{7A198A19-C1E2-3506-8BF2-7767C8EE1466}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game abstraction\Source Files">
+      <UniqueIdentifier>{C7D42658-2C9D-3F96-A044-3D9C81170B68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game specific\bfbc2">
+      <UniqueIdentifier>{03D6669F-C153-3F97-B93B-20CF1E011DE2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game specific\bf3">
+      <UniqueIdentifier>{AD8B3248-9AD8-3DE2-8150-E715CA570065}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game specific\bf4">
+      <UniqueIdentifier>{5D919343-74E4-360B-85CC-73744DC561ED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game specific\swbf">
+      <UniqueIdentifier>{987F9B29-7F3E-33D9-BF1A-06F4716901F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{308A45A0-1DB5-3141-A703-421BB14699DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2248BD8C-1505-345F-B68E-CB96AB00CE06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game specific">
+      <UniqueIdentifier>{EF5717FA-38A0-3156-850E-DB419A8929AF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game abstraction">
+      <UniqueIdentifier>{7F0E29C1-BEBA-3698-81E9-6C10FBE263C8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

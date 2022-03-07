@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{961BBFA0-E99A-3A08-9178-118BFE51B328}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>hacklib_bf</ProjectName>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\debug</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\debug</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">krilu92</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\MAC10\Desktop\hacklib-ok-aim\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">hacklib_bf.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">hacklib_bf</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\MAC10\Desktop\hacklib-ok-aim\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">hacklib_bf.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">hacklib_bf</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\MAC10\Desktop\hacklib-ok-aim\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">hacklib_bf.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">hacklib_bf</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\kristian.luneborg\Desktop\hacklib-ok-aim\include;C:\Users\kristian.luneborg\Desktop\hacklib-ok-aim\src\hacklib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR="Debug";hacklib_bf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR=\"Debug\";hacklib_bf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\MAC10\Desktop\hacklib-ok-aim\include;C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\MAC10\Desktop\hacklib-ok-aim\include;C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\hacklibd.lib;d3d9.lib;d3dx9.lib;d3d11.lib;dwmapi.lib;psapi.lib;OpenGL32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\kristian.luneborg\Desktop\hacklib-ok-aim\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/kristian.luneborg/Desktop/hacklib-ok-aim/libhacklib_bfd.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/kristian.luneborg/Desktop/hacklib-ok-aim/bin/hacklib_bfd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\MAC10\Desktop\hacklib-ok-aim\include;C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR="Release";hacklib_bf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR=\"Release\";hacklib_bf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\MAC10\Desktop\hacklib-ok-aim\include;C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\MAC10\Desktop\hacklib-ok-aim\include;C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\hacklib.lib;d3d9.lib;d3dx9.lib;d3d11.lib;dwmapi.lib;psapi.lib;OpenGL32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/MAC10/Desktop/hacklib-ok-aim/lib;C:/Users/MAC10/Desktop/hacklib-ok-aim/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/MAC10/Desktop/hacklib-ok-aim/lib/hacklib_bf.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/MAC10/Desktop/hacklib-ok-aim/bin/hacklib_bf.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\MAC10\Desktop\hacklib-ok-aim\include;C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR="MinSizeRel";hacklib_bf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR=\"MinSizeRel\";hacklib_bf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\MAC10\Desktop\hacklib-ok-aim\include;C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\MAC10\Desktop\hacklib-ok-aim\include;C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\MinSizeRel\hacklib.lib;d3d9.lib;d3dx9.lib;d3d11.lib;dwmapi.lib;psapi.lib;OpenGL32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/MAC10/Desktop/hacklib-ok-aim/lib;C:/Users/MAC10/Desktop/hacklib-ok-aim/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/MAC10/Desktop/hacklib-ok-aim/lib/MinSizeRel/hacklib_bf.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/MAC10/Desktop/hacklib-ok-aim/bin/MinSizeRel/hacklib_bf.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\MAC10\Desktop\hacklib-ok-aim\include;C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR="RelWithDebInfo";hacklib_bf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR=\"RelWithDebInfo\";hacklib_bf_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\MAC10\Desktop\hacklib-ok-aim\include;C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\MAC10\Desktop\hacklib-ok-aim\include;C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\RelWithDebInfo\hacklib.lib;d3d9.lib;d3dx9.lib;d3d11.lib;dwmapi.lib;psapi.lib;OpenGL32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/MAC10/Desktop/hacklib-ok-aim/lib;C:/Users/MAC10/Desktop/hacklib-ok-aim/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/MAC10/Desktop/hacklib-ok-aim/lib/RelWithDebInfo/hacklib_bf.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/MAC10/Desktop/hacklib-ok-aim/bin/RelWithDebInfo/hacklib_bf.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="BattlefieldData.cpp" />
+    <ClCompile Include="CamData.cpp" />
+    <ClCompile Include="Error.cpp" />
+    <ClCompile Include="EspDrawer.cpp" />
+    <ClCompile Include="Hack.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="OwnData.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Skeleton.cpp" />
+    <ClCompile Include="Weapon.cpp" />
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\BFBC2_Cam.h" />
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\BFBC2_Input.h" />
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\BFBC2_Library.h" />
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\BFBC2_Main.h" />
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\BFBC2_Mystate.h" />
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\BFBC2_Skeleton.h" />
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\BFBC2_Weapon.h" />
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\BF3_Cam.h" />
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\BF3_Input.h" />
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\BF3_Library.h" />
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\BF3_Main.h" />
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\BF3_Skeleton.h" />
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\BF3_Weapon.h" />
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\BF4_Cam.h" />
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\BF4_Input.h" />
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\BF4_Library.h" />
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\BF4_Main.h" />
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\BF4_Weapon.h" />
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\SWBF_Cam.h" />
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\SWBF_Input.h" />
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\SWBF_Library.h" />
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\SWBF_Main.h" />
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\BattlefieldData.h" />
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\CamData.h" />
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\OwnData.h" />
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\Player.h" />
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\Skeleton.h" />
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\Weapon.h" />
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\Input.h" />
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\Aimbot.h" />
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\BattlefieldDataMgr.h" />
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\EspDrawer.h" />
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\Hack.h" />
+    <ClInclude Include="C:\Users\MAC10\Desktop\hacklib-ok-aim\src\hacklib_bf\main.h" />
+    <ClCompile Include="Aimbot.cpp" />
+    <ClCompile Include="BattlefieldDataMgr.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/MAC10/Desktop/hacklib-ok-aim/src/hacklib/hacklib.vcxproj">
+      <Project>C955374E-B9E8-3C23-80EB-BFAE2B628C11</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
